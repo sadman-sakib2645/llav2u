@@ -82,9 +82,9 @@ body{
 
 
 .banner-text{
-    width: 600px;
+    width: 750px;
     position: absolute;
-    top: 150px;
+    top: 100px;
     left: 50%;
     transform: translateX(-50%);
     z-index: 11;
@@ -97,7 +97,10 @@ body{
     text-align: center;
 }
 .banner-text .text h1{
-    font-size: 70px;
+    font-size: 100px;
+}
+.banner-text .text p{
+    font-size: 45px;
 }
 .banner-text .text .banner-button{
     background: #70AD47;
@@ -114,6 +117,7 @@ body{
     padding-right: 15px;
     padding-top: 13px;
     z-index: 1;
+    
 }
 
 .banner-text .text .banner-button::before{
@@ -154,7 +158,14 @@ body{
     position: absolute;
     left: 15px;
     top: 10px;
-    
+    transition: all linear .4s;
+    -webkit-transition: all linear .4s;
+    -moz-transition: all linear .4s;
+    -ms-transition: all linear .4s;
+    -o-transition: all linear .4s;
+}
+.banner-text .text .banner-button:hover i{
+    rotate: 30deg;
 }
 .banner-text .text .banner-button a{
     color: white;
@@ -166,11 +177,11 @@ body{
 }
 .banner-text .text .b-truck .overlay {
     position: absolute;
-    top: 44px;
-    left: 176px;
+    top: 55px;
+    left: 221px;
     z-index: 1;
     background: #0000FF;
-    padding: 4px 46px;
+    padding: 5px 49px;
 }
 
 .banner-text .text .bt{
@@ -325,28 +336,30 @@ footer .item  h6{
         footer css done
 =============================== */
 .form {
-    padding-top: 50px;
+    padding: 80px 0;
     background-image: url(../images/form-banner.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position:  center;
 }
 .form .text{
-    border: 2px solid white;
     margin-bottom: 40px;
 }
+
 .form .text input{
-    font-size: 35px;
     text-align: right;
     background: none;
     outline: none;
     border: none;
-    padding: 20px 0;
-    
+    border: 2px solid white;
+    width: 100%;
+    padding: 15px 20px;
+    font-size: 22px;
 }
 .form .text ::placeholder{
-    color: rgb(255, 255, 255);
+    color: rgba(255, 255, 255, 0.904);
 }
+
 .form .text textarea{
     width: 100%;
     height: 100%;
@@ -354,11 +367,12 @@ footer .item  h6{
     background:none;
     border: none;
     outline: none;
-    font-size: 35px;
+    font-size: 22px;
     text-align: right;
     padding-right: 20px;
     padding-top: 30px;
-    margin-bottom: 200px;
+    padding-bottom: 100px;
+    border: 2px solid white;
 }
 
 /* ============================
