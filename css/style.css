@@ -301,7 +301,7 @@ body{
         service css done
 =============================== */
 footer{
-    margin-bottom: 100px;
+    margin-bottom: 50px;
 }
 footer .item .pera{
     text-align: right;
@@ -325,7 +325,11 @@ footer .item  h6{
         footer css done
 =============================== */
 .form {
-    margin-bottom: 50px;
+    padding-top: 50px;
+    background-image: url(../images/form-banner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:  center;
 }
 .form .text{
     border: 2px solid white;
@@ -341,7 +345,7 @@ footer .item  h6{
     
 }
 .form .text ::placeholder{
-    color: white;
+    color: rgb(255, 255, 255);
 }
 .form .text textarea{
     width: 100%;
