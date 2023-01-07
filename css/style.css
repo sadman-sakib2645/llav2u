@@ -1,0 +1,362 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+img{
+    vertical-align: middle;
+}
+
+ul{
+    list-style: none;
+}
+body{
+    background: #152238;
+}
+
+/* ============================
+        common css done
+=============================== */
+.inter-light{
+    font-family: 'Inter', sans-serif;
+    font-weight: 300;
+}
+.inter-reg{
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+}
+.inter-med{
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+}
+.inter-semi{
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+}
+.inter-bold{
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+}
+.inter-exbold{
+    font-family: 'Inter', sans-serif;
+    font-weight: 800;
+}
+.inter-black{
+    font-family: 'Inter', sans-serif;
+    font-weight: 900;
+}
+/* ============================
+        fonts css done
+=============================== */
+.brand-c{
+    color: #FFC000;
+}
+.brand-bg{
+    background-color: #FFC000;
+}
+.white{
+    color: white;
+}
+.fs80{
+    font-size: 80px;
+}
+.fs37{
+    font-size: 37px;
+}
+.fs22{
+    font-size: 22px;
+}
+.fs60{
+    font-size: 60px;
+}
+/* ============================
+        brand color css done
+=============================== */
+.banner{
+    margin-bottom: 100px;
+}
+
+
+.banner-text{
+    width: 600px;
+    position: absolute;
+    top: 150px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 11;
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+}
+.text{
+    text-align: center;
+}
+.banner-text .text h1{
+    font-size: 70px;
+}
+.banner-text .text .banner-button{
+    background: #70AD47;
+    width: 220px;
+    height: 60px;
+    margin: 0 auto;
+    text-align: right;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    position: relative;
+    padding-right: 15px;
+    padding-top: 13px;
+    z-index: 1;
+}
+
+.banner-text .text .banner-button::before{
+    content: "";
+    width: 90%;
+    height: 2px;
+    background:linear-gradient(to right,rgb(250, 250, 250) , #ffd34f);
+    position: absolute;
+    bottom: 0;
+    left: 11px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    z-index: -1;
+    transition: ease-in-out .4s;
+    -webkit-transition: ease-in-out .4s;
+    -moz-transition: ease-in-out .4s;
+    -ms-transition: ease-in-out .4s;
+    -o-transition: ease-in-out .4s;
+    transform: scale(0,1);
+    -webkit-transform: scale(0,1);
+    -moz-transform: scale(0,1);
+    -ms-transform: scale(0,1);
+    -o-transform: scale(0,1);
+}
+.banner-text .text .banner-button:hover::before{
+    transform: scale(1,1);
+    -webkit-transform: scale(1,1);
+    -moz-transform: scale(1,1);
+    -ms-transform: scale(1,1);
+    -o-transform: scale(1,1);
+}
+.banner-text .text .banner-button i{
+    font-size: 45px;
+    color: white;
+    position: absolute;
+    left: 15px;
+    top: 10px;
+    
+}
+.banner-text .text .banner-button a{
+    color: white;
+}
+
+.banner-text .text .b-truck{
+    position: relative;
+    z-index: 1;
+}
+.banner-text .text .b-truck .overlay {
+    position: absolute;
+    top: 44px;
+    left: 176px;
+    z-index: 1;
+    background: #0000FF;
+    padding: 4px 46px;
+}
+
+.banner-text .text .bt{
+    position: relative;
+}
+.banner-text .text .bt::after{
+    content: "";
+    width: 0%;
+    height: 100%;
+    background:#ffd34f ;
+    position: absolute;
+    top: 0;
+    right: 0%;
+    z-index: -1;
+    transition: all ease-in .4s;
+    -webkit-transition: all ease-in .4s;
+    -moz-transition: all ease-in .4s;
+    -ms-transition: all ease-in .4s;
+    -o-transition: all ease-in .4s;
+    opacity: 0;
+}
+.banner-text .text .bt:hover::after{
+    width: 100%;
+    left: 0;
+    opacity: 1;
+    
+}
+.banner-text .text .bt h2{
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+}
+.banner-text .text .bt:hover h2{
+    color: black;
+}
+
+/* ============================
+        banner text css done
+=============================== */
+.service{
+    margin-bottom: 100px;
+}
+.service .service-h{
+    font-size: 50px;
+    margin-bottom: 60px;
+}
+
+.service .s-content{
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid white;
+    padding: 25px 35px 20px 50px;
+    margin-bottom: 30px;
+    position: relative;
+    
+}
+.service .s-content::before{
+    content: "";
+    width: 100%;
+    height: 100%;
+    border-top: 3px solid #ffd34f;
+    border-bottom: 3px solid #ffd34f;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: scale(0,1);
+    -webkit-transform: scale(0,1);
+    -moz-transform: scale(0,1);
+    -ms-transform: scale(0,1);
+    -o-transform: scale(0,1);
+    transition: all linear .4s;
+    -webkit-transition: all linear .4s;
+    -moz-transition: all linear .4s;
+    -ms-transition: all linear .4s;
+    -o-transition: all linear .4s;
+}
+.service .s-content:hover::before{
+    transform: scale(1,1);
+    -webkit-transform: scale(1,1);
+    -moz-transform: scale(1,1);
+    -ms-transform: scale(1,1);
+    -o-transform: scale(1,1);
+}
+.service .s-content::after{
+    content: "";
+    width: 100%;
+    height: 100%;
+    border-left: 3px solid #ffd34f;
+    border-right: 3px solid #ffd34f;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: scale(1,0);
+    -webkit-transform: scale(1,0);
+    -moz-transform: scale(1,0);
+    -ms-transform: scale(1,0);
+    -o-transform: scale(1,0);
+    transition: all linear .4s;
+    -webkit-transition: all linear .4s;
+    -moz-transition: all linear .4s;
+    -ms-transition: all linear .4s;
+    -o-transition: all linear .4s;
+}
+.service .s-content:hover::after{
+    transform: scale(1,1);
+    -webkit-transform: scale(1,1);
+    -moz-transform: scale(1,1);
+    -ms-transform: scale(1,1);
+    -o-transform: scale(1,1);
+}
+
+.service .s-content .img{
+    width: 100px;
+}
+.service .s-content .text{
+    text-align: right;
+}
+.service .s-content .text h4{
+    font-size: 25px;
+}
+.service .s-content .text p{
+    font-size: 17px;
+    
+}
+/* ============================
+        service css done
+=============================== */
+footer{
+    margin-bottom: 100px;
+}
+footer .item .pera{
+    text-align: right;
+}
+footer .item .pera{
+    padding-left: 70px;
+    padding-right: 25px;
+}
+footer .item .pera p{
+    font-size: 26px;
+    padding-bottom: 35px;
+}
+footer .item  h6{
+    background: red;
+    font-size: 23px;
+    text-align: right;
+    padding-right: 25px;
+    margin-top: 70px;
+}
+/* ============================
+        footer css done
+=============================== */
+.form {
+    margin-bottom: 50px;
+}
+.form .text{
+    border: 2px solid white;
+    margin-bottom: 40px;
+}
+.form .text input{
+    font-size: 35px;
+    text-align: right;
+    background: none;
+    outline: none;
+    border: none;
+    padding: 20px 0;
+    
+}
+.form .text ::placeholder{
+    color: white;
+}
+.form .text textarea{
+    width: 100%;
+    height: 100%;
+    resize: none;
+    background:none;
+    border: none;
+    outline: none;
+    font-size: 35px;
+    text-align: right;
+    padding-right: 20px;
+    padding-top: 30px;
+    margin-bottom: 200px;
+}
+
+/* ============================
+        form css done
+=============================== */
