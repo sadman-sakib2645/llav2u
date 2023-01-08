@@ -1,0 +1,679 @@
+/* ===================================
+    <!-- extra small device -->
+==================================== */
+
+@media (max-width: 450px){
+
+/* ============= banner text start ============= */
+.carousel-control-prev-icon{
+    background-image: none ;
+}
+.carousel-control-next-icon{
+    background-image: none ;
+}
+.banner-text .text h1 {
+	font-size: 45px;
+    margin-bottom: 0;
+}
+
+.banner-text .text p {
+	font-size: 20px;
+	padding-bottom: 20px;
+    margin-bottom: 0;
+    margin-top: -2px;
+}
+.banner-text{
+    top: 0px;
+    width: 370px;
+}
+.banner-text .text .banner-button {
+	width: 130px;
+	height: 40px;
+	padding-right: 8px;
+	margin-top: -10px;
+	margin-bottom: 0;
+    text-align: right;
+}
+.banner-text .text .banner-button a{
+    font-size: 15px !important;
+    position: absolute;
+	left: 30px;
+	top: 10px;
+}
+.banner-text .text .banner-button i {
+	font-size: 23px;
+	color: white;
+	position: absolute;
+	left: 6px;
+	top: 10px;
+	transition: all linear .4s;
+	-webkit-transition: all linear .4s;
+	-moz-transition: all linear .4s;
+	-ms-transition: all linear .4s;
+	-o-transition: all linear .4s;
+}
+.banner-text .text .b-truck .overlay h2{
+    font-size: 35px;
+    
+}
+.banner-text .text .b-truck .overlay {
+	top: 27px;
+	left: 105px;
+	padding: 1px 30px;
+}
+
+
+/* ============= banner text end ============= */
+
+
+
+/* ============= service start ============= */
+.service {
+	margin-bottom: 40px;
+}
+.service .service-h {
+	font-size: 35px;
+	margin-bottom: 25px;
+}
+.service .s-content{
+    padding: 0;
+}
+.service .s-content{
+    flex-wrap: wrap;
+    text-align: center;
+    padding: 20px;
+}
+.service .s-content .text{
+    text-align: center;
+}
+.service .s-content .img{
+    margin: 0 auto;
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+.service .s-content .text h4{
+    font-size: 22px;
+}
+.service .s-content .text p{
+    font-size: 16px;
+    font-weight: 500;
+}
+
+/* ============= service end ============= */
+
+/* ============= footer start ============= */
+footer .item .pera {
+	padding-left: 0px;
+	padding-right: 5px;
+}
+footer .item .pera p {
+	font-size: 23px;
+	padding-bottom: 25px;
+}
+footer .item h6 {
+	
+	font-size: 21px;
+	text-align: right;
+	padding: 0 10px;
+	margin-top: 50px;
+	display: inline-block;
+	margin-right: 0px;
+}
+/* ============= footer end ============= */
+
+
+
+/* ============= form start ============= */
+.form {
+	padding: 32px 0;
+	
+}
+/* ============= form end ============= */
+
+}
+
+/*============================================== max width 575px============================================= */
+    @media(min-width: 451px) and  (max-width: 575px){
+        /* ============= banner start ============= */
+        .banner-text .text h1 {
+            font-size: 45px;
+            margin-bottom: 0;
+        }
+
+    .banner-text .text p {
+        font-size: 22px;
+        padding-bottom: 35px;
+        margin-bottom: 0;
+        margin-top: 0px;
+    }
+        .banner-text {
+            top: 0px;
+            width: 400px;
+        }
+        .banner-text .text .banner-button {
+            width: 130px;
+            height: 40px;
+            padding-right: 8px;
+            margin-top: -10px;
+            margin-bottom: 30px;
+            text-align: right;
+        }
+        .banner-text .text .banner-button a{
+            font-size: 15px !important;
+            position: absolute;
+            left: 30px;
+            top: 10px;
+        }
+        .banner-text .text .banner-button i {
+            font-size: 23px;
+            color: white;
+            position: absolute;
+            left: 6px;
+            top: 10px;
+            transition: all linear .4s;
+            -webkit-transition: all linear .4s;
+            -moz-transition: all linear .4s;
+            -ms-transition: all linear .4s;
+            -o-transition: all linear .4s;
+        }
+        .banner-text .text .b-truck .overlay h2 {
+            font-size: 39px;
+        }
+        .banner-text .text .b-truck .overlay {
+            top: 29px;
+            left: 114px;
+            padding: 1px 31px;
+        }
+
+        /* =================== banner end ==================== */
+
+
+        /* ============= service start ============= */
+    .service {
+        margin-bottom: 40px;
+    }
+    .service .service-h {
+        font-size: 40px;
+        margin-bottom: 25px;
+    }
+    .service .s-content{
+        padding: 0;
+    }
+    .service .s-content{
+        flex-wrap: wrap;
+        text-align: center;
+        padding: 20px;
+    }
+    .service .s-content .text{
+        text-align: center;
+    }
+    .service .s-content .img{
+        margin: 0 auto;
+        padding-bottom: 15px;
+        padding-top: 15px;
+    }
+    .service .s-content .text h4{
+        font-size: 22px;
+    }
+    .service .s-content .text p{
+        font-size: 16px;
+        font-weight: 500;
+    }
+
+    /* ============= service end ============= */
+
+    /* ============= footer start ============= */
+    footer .item .pera {
+        padding-left: 0px;
+        padding-right: 5px;
+    }
+    footer .item .pera p {
+        font-size: 23px;
+        padding-bottom: 25px;
+    }
+    footer .item h6 {
+        
+        font-size: 21px;
+        text-align: right;
+        padding: 0 10px;
+        margin-top: 50px;
+        display: inline-block;
+        margin-right: 0px;
+    }
+    /* ============= footer end ============= */
+
+
+
+    /* ============= form start ============= */
+    .form {
+        padding: 32px 0;
+        
+    }
+    /* ============= form end ============= */
+
+    }
+
+/* ===================================
+    <!-- extra small device -->
+==================================== */
+
+
+
+
+/* ===================================
+    <!-- small small device -->
+==================================== */
+    @media (min-width: 576px ) and (max-width: 680px){
+
+        .banner-text .text h1 {
+            font-size: 65px;
+            margin-bottom: 0;
+        }
+
+        .banner-text .text p {
+            font-size: 28px;
+            padding-bottom: 35px;
+            margin-bottom: 0;
+            margin-top: 0px;
+        }
+        .banner-text {
+            top: 0px;
+            width: 485px;
+        }
+        .banner-text .text .banner-button {
+            width: 150px;
+            height: 50px;
+            padding-right: 8px;
+            margin-top: -10px;
+            margin-bottom: 30px;
+            text-align: right;
+        }
+        .banner-text .text .banner-button a {
+            font-size: 17px !important;
+            position: absolute;
+            left: 36px;
+            top: 10px;
+        }
+        .banner-text .text .banner-button i {
+            font-size: 26px;
+            color: white;
+            position: absolute;
+            left: 8px;
+            top: 11px;
+            transition: all linear .4s;
+            -webkit-transition: all linear .4s;
+            -moz-transition: all linear .4s;
+            -ms-transition: all linear .4s;
+            -o-transition: all linear .4s;
+        }
+        .banner-text .text .b-truck .overlay h2{
+            font-size: 45px;
+            
+        }
+        .banner-text .text .b-truck .overlay {
+            top: 35px;
+            left: 139px;
+            padding: 5px 45px;
+        }
+
+        /* =================== banner end ==================== */
+
+
+
+
+/* =================== service start ==================== */
+        .service .service-h {
+            font-size: 45px;
+            margin-bottom: 50px;
+        }
+
+        .service .s-content{
+            padding: 20px;
+        }
+        .service .s-content .img {
+            width: 180px;
+            text-align: left;
+        }
+        .service .s-content .img img{
+            width: 100% !important;
+            margin-top: 20px;
+        }
+
+        .service .s-content .text{
+            padding-left: 20px;
+        }
+        footer .item .pera p{
+            font-size: 23px;
+        }
+/* =================== service end ==================== */
+
+
+/* =================== footer start  ==================== */
+        footer .item .pera{
+            padding: 0;
+        }
+        footer .item h6{
+            margin-right: 0;
+            padding-right: 3px;
+        }
+/* =================== footer end ==================== */
+
+
+
+
+    }
+
+    /* ===================================================================== */
+    @media (min-width: 680px ) and (max-width: 767px){
+
+        .banner-text .text h1 {
+            font-size: 68px;
+            margin-bottom: 0;
+        }
+
+        .banner-text .text p {
+            font-size: 34px;
+            padding-bottom: 35px;
+            margin-bottom: 0;
+            margin-top: 0px;
+        }
+        .banner-text {
+            top: 10px;
+            width: 550px;
+        }
+        .banner-text .text .banner-button {
+            width: 170px;
+            height: 55px;
+            padding-right: 8px;
+            margin-top: 5px;
+            margin-bottom: 30px;
+            text-align: right;
+        }
+        .banner-text .text .banner-button a {
+            font-size: 19px !important;
+            position: absolute;
+            left: 43px;
+            top: 16px;
+        }
+        .banner-text .text .banner-button i {
+            font-size: 35px;
+            color: white;
+            position: absolute;
+            left: 8px;
+            top: 11px;
+            transition: all linear .4s;
+            -webkit-transition: all linear .4s;
+            -moz-transition: all linear .4s;
+            -ms-transition: all linear .4s;
+            -o-transition: all linear .4s;
+        }
+        .banner-text .text .b-truck .overlay h2{
+            font-size: 53px;
+            
+        }
+        .banner-text .text .b-truck .overlay {
+            top: 39px;
+            left: 156px;
+            padding: 5px 0px;
+            width: 64%;
+        }
+
+        /* =================== banner end ==================== */
+
+
+
+
+/* =================== service start ==================== */
+        .service .service-h {
+            font-size: 45px;
+            margin-bottom: 50px;
+        }
+
+        .service .s-content{
+            padding: 20px;
+        }
+        .service .s-content .img {
+            width: 180px;
+            text-align: left;
+        }
+        .service .s-content .img img {
+            width: 100% !important;
+            margin-top: 28px;
+        }
+
+        .service .s-content .text{
+            padding-left: 20px;
+        }
+        footer .item .pera p{
+            font-size: 23px;
+        }
+/* =================== service end ==================== */
+
+
+/* =================== footer start  ==================== */
+        footer .item .pera{
+            padding: 0;
+        }
+        footer .item h6{
+            margin-right: 0;
+            padding-right: 3px;
+        }
+/* =================== footer end ==================== */
+
+
+
+
+    }
+
+/* ===================================
+    <!-- small small device -->
+==================================== */
+
+
+
+
+
+
+/* ===================================
+    <!-- medium small device -->
+==================================== */
+@media(min-width: 768px) and (max-width: 850px){
+
+    /*=========================== banner start =========================== */
+    .banner-text{
+        width: 600px;
+        top: 5px;
+    }
+    .banner-text .text h1 {
+        font-size: 80px;
+    }
+    .banner-text .text p{
+        font-size: 39px;
+        margin-bottom: 0;
+        margin-top: -10px;
+    }
+    .banner-text .text .banner-button{
+        margin-top: 10px;
+        margin-bottom: 30px;
+    }
+
+    .banner-text .text .b-truck .overlay h2{
+        font-size: 55px;
+        
+    }
+    .banner-text .text .b-truck .overlay {
+        position: absolute;
+        top: 43px;
+        left: 175px;
+        z-index: 1;
+        background: #0000FF;
+        padding: 8px 59px;
+    }
+
+    /*=========================== banner start =========================== */
+
+    /* =========================== service ================================= */
+    .service .service-h {
+        font-size: 45px;
+        margin-bottom: 50px;
+    }
+
+    .service .s-content{
+        padding: 20px;
+    }
+    .service .s-content .img {
+        width: 180px;
+        text-align: left;
+    }
+    .service .s-content .img img {
+        width: 80% !important;
+        margin-top: 10px;
+    }
+
+    .service .s-content .text{
+        padding-left: 20px;
+    }
+    /* =========================== service ================================= */
+
+    /* =========================== footer ================================= */
+    footer .item .pera p {
+        font-size: 25px;
+        padding-bottom: 35px;
+    }
+    /* =========================== footer ================================= */
+}
+
+/* ====================================================================================================== */
+@media(min-width: 856px) and (max-width: 991px){
+
+    /*=========================== banner start =========================== */
+    .banner-text{
+        width: 700px;
+        top: 20px;
+    }
+    .banner-text .text h1 {
+        font-size: 90px;
+    }
+    .banner-text .text p{
+        font-size: 45px;
+        margin-bottom: 0;
+        margin-top: -10px;
+    }
+    .banner-text .text .banner-button{
+        margin-top: 10px;
+        margin-bottom: 30px;
+    }
+
+    .banner-text .text .b-truck .overlay h2{
+        font-size: 65px;
+        
+    }
+    .banner-text .text .b-truck .overlay {
+        position: absolute;
+        top: 53px;
+        left: 206px;
+        z-index: 1;
+        background: #0000FF;
+        padding: 8px 67px;
+    }
+
+    /*=========================== banner start =========================== */
+
+    /* =========================== service ================================= */
+    .service .service-h {
+        font-size: 45px;
+        margin-bottom: 50px;
+    }
+
+    .service .s-content{
+        padding: 20px;
+    }
+    .service .s-content .img {
+        width: 180px;
+        text-align: left;
+    }
+    .service .s-content .img img {
+        width: 80% !important;
+        margin-top: 10px;
+    }
+
+    .service .s-content .text{
+        padding-left: 20px;
+    }
+    /* =========================== service ================================= */
+
+    /* =========================== footer ================================= */
+    footer .item .pera p {
+        font-size: 25px;
+        padding-bottom: 35px;
+    }
+    /* =========================== footer ================================= */
+}
+
+/* ===================================
+    <!-- medium small device -->
+==================================== */
+
+
+/* ===================================
+    <!-- large small device -->
+==================================== */
+@media(min-width: 992px) and (max-width: 1199px){
+
+    /* ====================== banner ====================== */
+    .banner-text{
+        top: 20px;
+    }
+    .banner-text .text h1{
+        font-size: 90px;
+    }
+    .banner-text .text p {
+        font-size: 43px;
+        padding-bottom: 15px;
+    }
+    .banner-text .text .banner-button {
+        margin-bottom: 45px;
+        margin-top: 50px;
+    }
+    /* ====================== banner ====================== */
+
+
+    /* ====================== service ====================== */
+    .service .service-h {
+        font-size:50px;
+        margin-bottom: 50px;
+    }
+
+    .service .s-content{
+        padding: 20px;
+    }
+    .service .s-content .img {
+        width: 180px;
+        text-align: left;
+    }
+    .service .s-content .img img {
+        width: 50% !important;
+        margin-top: 15px;
+    }
+
+    .service .s-content .text{
+        padding-left: 20px;
+    }
+    /* ====================== service ====================== */
+
+}
+/* ===================================
+    <!-- large small device -->
+==================================== */
+
+/* ===================================
+    <!--  extra large small device -->
+==================================== */
+@media(min-width: 1200px) and (max-width: 1300px){
+    .banner-text .text .banner-button{
+        margin-bottom: 85px;
+    }
+}
+/* ===================================
+    <!-- extra large small device -->
+==================================== */
