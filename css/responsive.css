@@ -151,7 +151,7 @@ footer .item h6 {
             width: 400px;
         }
         .banner-text .text .banner-button {
-            width: 130px;
+            width: 140px;
             height: 40px;
             padding-right: 8px;
             margin-top: -10px;
@@ -281,7 +281,7 @@ footer .item h6 {
             width: 485px;
         }
         .banner-text .text .banner-button {
-            width: 150px;
+            width: 175px;
             height: 50px;
             padding-right: 8px;
             margin-top: -10px;
@@ -291,14 +291,14 @@ footer .item h6 {
         .banner-text .text .banner-button a {
             font-size: 17px !important;
             position: absolute;
-            left: 36px;
+            left: 45px;
             top: 10px;
         }
         .banner-text .text .banner-button i {
-            font-size: 26px;
+            font-size: 28px;
             color: white;
             position: absolute;
-            left: 8px;
+            left: 10px;
             top: 11px;
             transition: all linear .4s;
             -webkit-transition: all linear .4s;
