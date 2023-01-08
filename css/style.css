@@ -385,3 +385,19 @@ footer .item  h6{
 /* ============================
         form css done
 =============================== */
+.submit-btn{
+    width: 180px;
+    line-height: 70px;
+    border: 2px solid white;
+    font-size: 30px;
+    text-align: center;
+    margin: 0 auto;
+    transition: all linear .4s;
+    -webkit-transition: all linear .4s;
+    -moz-transition: all linear .4s;
+    -ms-transition: all linear .4s;
+    -o-transition: all linear .4s;
+}
+.submit-btn:hover{
+    border-color: #ffd34f;
+}
