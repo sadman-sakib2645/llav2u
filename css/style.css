@@ -84,7 +84,7 @@ body{
 .banner-text{
     width: 750px;
     position: absolute;
-    top: 75px;
+    top: 60px;
     left: 50%;
     transform: translateX(-50%);
     z-index: 11;
@@ -99,8 +99,9 @@ body{
 .banner-text .text h1{
     font-size: 100px;
 }
-.banner-text .text p{
+.banner-text .text p {
     font-size: 45px;
+    padding-bottom: 20px;
 }
 .banner-text .text .banner-button{
     background: #70AD47;
@@ -117,7 +118,7 @@ body{
     padding-right: 15px;
     padding-top: 13px;
     z-index: 1;
-    
+    margin-bottom: 40px;
 }
 
 .banner-text .text .banner-button::before{
@@ -314,6 +315,9 @@ body{
 footer{
     margin-bottom: 50px;
 }
+footer .item{
+    text-align: right;
+}
 footer .item .pera{
     text-align: right;
 }
@@ -331,6 +335,8 @@ footer .item  h6{
     text-align: right;
     padding-right: 25px;
     margin-top: 70px;
+    display: inline-block;
+    padding-left: 20px;
 }
 /* ============================
         footer css done
